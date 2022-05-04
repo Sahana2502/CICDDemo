@@ -4,7 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>CICD Demo!</p>
+      <p>
+        This is an app to demo AWS Codepipeline! I just have to push to github
+        and Volia! everything is deployed
+      </p>
     </div>
   );
 }
