@@ -5,13 +5,12 @@ function App() {
   return (
     <div className="App">
       <img
-        src="https://i.kym-cdn.com/entries/icons/original/000/018/929/graphic_design_is_my_passion.png"
+        src="https://t3.ftcdn.net/jpg/02/45/12/64/240_F_245126474_CPUT9FWNlxSlOn1cR1cSh4omIOiWghPj.jpg"
         alt=""
       />{" "}
-      */
       <p>
-        This is an app to demo AWS Codepipeline! I just have to push to github
-        and Volia! everything is deployed
+        This is an app to demo AWS Codepipeline! I just have to push code to
+        github and Voila! everything is deployed to this url
       </p>
     </div>
   );
