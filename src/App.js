@@ -14,10 +14,8 @@ export default function App() {
         <Grid item xs={8} mt={4}>
           <TopBar text={"Drop Here"} variant="h4" />
           <Frame>
-            <Element is="div" canvas>
-              <Text text={"Hello!"} />
-              <Text text={"There!"} />
-              <Text text={"You!"} />
+            <Element is={MyEditor} canvas>
+              <Button text={"Hello!"} />
             </Element>
           </Frame>
         </Grid>
