@@ -14,6 +14,7 @@ export default function App() {
         <Grid item xs={8} mt={4}>
           <TopBar text={"Drop Here"} variant="h4" />
           <Frame>
+            {/* This doesn't work!! */}
             <Element is={MyEditor} canvas>
               <Button text={"Hello!"} />
             </Element>
